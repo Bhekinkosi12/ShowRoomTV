@@ -1,0 +1,231 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+    BaseViewModel baseView = new BaseViewModel();
+    baseView.Page = "Home";
+    await Html.RenderPartialAsync("_Tabview", baseView);
+
+}
+
+
+<!-- end home -->
+<!-- content -->
+<section class="content" style="margin-top: 140px;" data-bg="../img/home/home__bg3.jpg">
+
+
+    <div class="container">
+        <!-- content tabs -->
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="1-tab">
+                <div class="row">
+                    <!-- card -->
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <div class=" card card--list">
+                            <div class="row">
+
+                                <div class="introC col-12 col-md-12 col-sm-12">
+                                    <img src="img/showroomLock.jpg" alt="">
+
+                                    <h2>Entertainment on the mooove !</h2>
+
+                                    <h3>Advertising Catalogue</h3>
+
+
+
+                                </div>
+
+
+
+
+                                <!--
+                <div class="col-12 col-sm-4">
+                    <div class="card__cover">
+                        <img src="img/covers/cover.jpg" alt="">
+                        <a href="#" class="card__play">
+                            <i class="icon ion-ios-play"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-8">
+                    <div class="card__content">
+                        <h3 class="card__title"><a href="#">I Dream in Another Language</a></h3>
+                        <span class="card__category">
+                            <a href="#">Action</a>
+                            <a href="#">Triler</a>
+                        </span>
+
+                        <div class="card__wrap">
+                            <span class="card__rate"><i class="icon ion-ios-star"></i>8.4</span>
+
+                            <ul class="card__list">
+                                <li>HD</li>
+                                <li>16+</li>
+                            </ul>
+                        </div>
+
+                        <div class="card__description">
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                        </div>
+                    </div>
+                </div> -->
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end card -->
+                    <!-- card -->
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <div class="card card--list">
+                            <div class="row">
+                                <div class="col-12 col-sm-12">
+                                    <div style="width:100%; height:100%" class="lottie" data-animation-path="../anime/social.json" data-anim-loop="true" data-name="ninja"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end card -->
+                    <br class="cleanBR" />
+                    <div class="backI col-12 col-sm-12 col-lg-12">
+                        <div class="card card--list">
+                            <div class="row">
+                                <div class="col-12 col-sm-12">
+                                    <div style="width:100vw; height:100vh; " class="lottie" data-animation-path="../anime/pizza.json" data-anim-loop="true" data-name="ninja"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="introC col-12">
+                        <p class="section__text">Showroom <b>TV</b> is bring Transit Advertising reaching local communities, businesses and tourist, from the minibus taxi travelling destiney, which is an opportunity to build your brand and tell people about your product or service through advertising on TV screen inside the minibus taxi</p>
+
+                        <p class="section__text section__text--last-with-margin">Let's consider that Transit Advertising can do for your <a asp-controller="Pricing" asp-action="Index">Brand</a>. With Transit Advertising, you can widely show your ads to the public. It can go to every part of the township to town. It speaks direct to your target market as the minibus taxi carried different types of customers.</p>
+                    </div>
+
+                    <br class="cleanBR" />
+
+                    <div class="col-12" style="text-align: center;">
+                        <h2 class="section__title">Our Features</h2>
+                    </div>
+                    <br class="cleanBR" />
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <i class="icon ion-ios-tv feature__icon"></i>
+                            <h3 class="feature__title">Image ads</h3>
+                            <p class="feature__text">We offer still image advertising. In this circle your image will be displayed from 10 to 30 seconds on screen prior to your subscription</p>
+                        </div>
+                    </div>
+                    <!-- end feature -->
+                    <!-- feature -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <i class="icon ion-ios-film feature__icon"></i>
+                            <h3 class="feature__title">Video ads</h3>
+                            <p class="feature__text">Video advertising runs from 15 seconds to a minutes as allocated on your subscription</p>
+                        </div>
+                    </div>
+                    <!-- end feature -->
+                    <!-- feature -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <i class="icon ion-ios-notifications feature__icon"></i>
+                            <h3 class="feature__title">Text ads</h3>
+                            <p class="feature__text">Text advertising is displayed at the bottom of the screen as a distraction to your product</p>
+                        </div>
+                    </div>
+
+
+
+                    <br class="cleanBR" />
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+        <!-- end content tabs -->
+    </div>
+</section>
+<!-- end content -->
+<br class="cleanBR" />
+
+<section class="section section--dark">
+    <div class="container">
+        <div class="row">
+            <!-- section title -->
+            <div class="col-12" style="text-align: center;">
+                <h2 class="section__title section__title--no-margin">How it works?</h2>
+            </div>
+            <!-- end section title -->
+            <!-- how box -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="how">
+                    <span class="how__number">01</span>
+                    <h3 class="how__title">Choose your slot</h3>
+                    <p class="how__text">Create an account and Choose your plan</p>
+                </div>
+            </div>
+            <!-- ebd how box -->
+            <!-- how box -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="how">
+                    <span class="how__number">02</span>
+                    <h3 class="how__title">Submit advert</h3>
+                    <p class="how__text">Submit your advert to Showroom under your account and you will receive an invoice.</p>
+                </div>
+            </div>
+            <!-- ebd how box -->
+            <!-- how box -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="how">
+                    <span class="how__number">03</span>
+                    <h3 class="how__title">Proof and Enjoy</h3>
+                    <p class="how__text">Submit your proof of payment to our site. Your advert will be displayed Monday to Saturday</p>
+                </div>
+            </div>
+            <!-- ebd how box -->
+
+
+
+            <br class="cleanBR" />
+
+            <div class="col-12">
+                <a asp-controller="Pricing" asp-action="Index" class="section__btn">See Offer</a>
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <!-- section title -->
+            <div class="col-12">
+                <h2 class="section__title section__title--no-margin">Our Partners</h2>
+            </div>
+            <!-- end section title -->
+            <!-- section text -->
+            <div class="col-12">
+                <p class="section__text section__text--last-with-margin">Within our local region our efforts are shared with the vukta taxi association.</p>
+            </div>
+            <!-- end section text -->
+            <!-- partner -->
+            <!-- end partner -->
+        </div>
+    </div>
+</section>
